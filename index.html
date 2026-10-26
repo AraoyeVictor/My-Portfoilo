@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Victor Araoye is a web developer creating modern, responsive websites with HTML, CSS and JavaScript.">
+  <title>Victor Araoye | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Victor Araoye home"><span>V</span>A<span class="logo-dot">.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="skills.html" class="nav-link active">Skills</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a class="nav-cta" href="contact.html">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <div class="availability"><span class="status-dot"></span> Open to opportunities</div>
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Victor <span class="gradient-text">Araoye</span><span class="accent">.</span></h1>
+        <h2>I build <span id="typed-text">modern websites</span><span class="typing-caret">|</span></h2>
+        <p class="hero-description">I'm a web developer focused on creating clean, responsive and engaging digital experiences with HTML, CSS and JavaScript.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-secondary" href="#contact">Contact me</a>
+        </div>
+        <div class="social-links" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/victor-araoye-a6b392431/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+          <a href="mailto:araoyevictor0@gmail.com" aria-label="Email">✉</a>
+          <a href="https://wa.me/2349167217351" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">☏</a>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-label="Decorative coding illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>victor.js</span><span class="window-menu">•••</span></div>
+          <div class="code-content">
+            <p><span class="line-number">01</span> <span class="code-purple">const</span> developer = {</p>
+            <p><span class="line-number">02</span> &nbsp; name: <span class="code-green">'Victor Araoye'</span>,</p>
+            <p><span class="line-number">03</span> &nbsp; skills: [<span class="code-green">'HTML'</span>,</p>
+            <p><span class="line-number">04</span> &nbsp; &nbsp; <span class="code-green">'CSS'</span>, <span class="code-green">'JavaScript'</span>],</p>
+            <p><span class="line-number">05</span> &nbsp; passion: <span class="code-green">'Building for the web'</span>,</p>
+            <p><span class="line-number">06</span> &nbsp; readyToGrow: <span class="code-orange">true</span></p>
+            <p><span class="line-number">07</span> };</p>
+            <p class="code-last"><span class="line-number">08</span> <span class="code-purple">console</span>.log(developer);<span class="tiny-caret"></span></p>
+          </div>
+        </div>
+        <div class="floating-badge badge-html"><b>&lt;/&gt;</b><span>HTML</span></div>
+        <div class="floating-badge badge-js"><b>JS</b><span>JavaScript</span></div>
+        <div class="floating-badge badge-css"><b>#</b><span>CSS</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+  </main>
+  <footer class="footer container"><a class="logo" href="#home"><span>V</span>A<span class="logo-dot">.</span></a><p>Designed & built by Victor Araoye</p><a href="#home" class="back-top">Back to top ↑</a><span class="copyright">© <span id="year"></span> Victor Araoye</span></footer>
+</body>
+</html>
